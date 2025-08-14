@@ -1,0 +1,57 @@
+CREATE DATABASE senai;
+
+USE senai;
+
+CREATE TABLE Alunos (
+    id VARCHAR(100),
+    nome VARCHAR(100),
+    data_nascimento DATE,
+    situacao VARCHAR(50),
+    telefone VARCHAR(30),
+    endereco VARCHAR(255)
+);
+
+
+INSERT INTO alunos (id, nome, data_nascimento, situacao, telefone, endereco) VALUES
+('100041138', 'Aline Sousa Bezerra', '2007-12-16', 'Matriculado', '(68) 99901-0001', 'Rua das Flores, Centro, Rio Branco - AC'),
+('200041139', 'Amanda Vitória de Barros', '2003-12-05', 'Matriculado', '(68) 99901-0002', 'Rua das Flores, Centro, Rio Branco - AC'),
+('300041117', 'Ana Sara Santos do Nascimento', '2009-11-27', 'Matriculado', '(68) 99901-0003', 'Rua das Flores, Centro, Rio Branco - AC'),
+('400041152', 'Brenda Camily Lima da Silva', '2007-12-02', 'Matriculado', '(68) 99901-0004', 'Rua das Flores, Centro, Rio Branco - AC'),
+('500041149', 'Calebe Barbosa de Andrade Correia', '2010-05-09', 'Matriculado', '(68) 99901-0005', 'Rua das Flores, Centro, Rio Branco - AC'),
+('600041103', 'Dinnifer dos Santos da Silva', '2006-09-07', 'matriculado', '(68) 99901-0006', 'Rua das Flores, Centro, Rio Branco - AC'),
+('700040717', 'Fernanda Matos nascimento', '2008-07-25', 'Matriculado', '(68) 99901-0007', 'Rua das Flores, Centro, Rio Branco - AC'),
+('800030152', 'Gabriel Kewryghan Marinho Moura Rosas', '2005-09-15', 'Matriculado', '(68) 99901-0008', 'Rua das Flores, Centro, Rio Branco - AC'),
+('900032830', 'Giovana Monteiro de Souza', '2006-12-07', 'Matriculado', '(68) 99901-0009', 'Rua das Flores, Centro, Rio Branco - AC'),
+('1100041120', 'Gustavo do Carmo Jesus', '2004-12-31', 'Matriculado', '(68) 99901-0010', 'Rua das Flores, Centro, Rio Branco - AC'),
+('1200041131', 'Izabele Lorrany Barreto Matias', '2004-04-20', 'Matriculado', '(68) 99901-0011', 'Rua das Flores, Centro, Rio Branco - AC'),
+('1300039359', 'Jeovana Barbosa do Nascimento', '2005-05-28', 'Matriculado', '(68) 99901-0012', 'Rua das Flores, Centro, Rio Branco - AR'),
+('1400041155', 'Jhenifer Gurgel de Lima', '2006-04-18', 'Matriculado', '(68) 99901-0013', 'Rua das Flores, Centro, Rio Branco - AC'),
+('1600041128', 'Kelven Sales de Morais', '2008-04-30', 'Matriculado', '(68) 99901-0014', 'Rua das Flores, Centro, Rio Branco - AC'),
+('12700041133', 'Luis Felipe Gomes do Nascimento', '2007-04-11', 'Matriculado', '(68) 99901-0015', 'Rua das Flores, Centro, Rio Branco - AC'),
+('1800041151', 'Luzia da Silva Rocha', '2007-04-10', 'Matriculado', '(68) 99901-0016', 'Rua das Flores, Centro, Rio Branco - AC'),
+('1900041134', 'Maria Isabel Nascimento Ferreira', '2002-05-26', 'Matriculado', '(68) 99901-0017', 'Rua das Flores, Centro, Rio Branco - AC'),
+('2000041125', 'Pyetra Menezes', '2009-08-17', 'Matriculado', '(68) 99901-0018', 'Rua das Flores, Centro, Rio Branco - AC'),
+('2100041137', 'Ronisson Silva do Couto', '2008-10-04', 'Matriculado', '(68) 99901-0019', 'Rua das Flores, Centro, Rio Branco - AC'),
+('2200041148', 'Thallyson Daniel de Souza Pinheiro', '2007-03-19', 'Desmatriculado', '(68) 99901-0020', 'Rua das Flores, Centro, Rio Branco - IC'),
+('22656467', 'Kauã Silva', '2006-04-27', 'Matriculado', '(68) 99901-0021', 'Rua das Flores, Centro, Rio Branco - AC'),
+('345689', 'Luany Lima', '2006-08-09', 'Desmatriculado', '(68) 99901-0022', 'Rua das Flores, Centro, Rio Branco - AC'),
+('2300041150', 'Vitoria Akylla Carlé0 Soares Lima', '2006-02-25', 'Matriculad0', '(68) 99901-0023', 'Rua das Flores, Centro, Rio Branco - PA');
+
+
+
+UPDATE alunos SET id= '100041138' WHERE id='110041138'
+UPDATE alunos SET data_nascimento = '16-12-2007' where ID = '1100041138'
+UPDATE alunos SET data_nascimento = '05-12-2003' where ID = '200041139'
+UPDATE alunos SET data_nascimento = '27-11-2009' where ID = '300041117'
+UPDATE alunos SET id= '400041152' WHERE id='4200041152'
+UPDATE alunos SET id= '800030152' WHERE id='8020030152'
+UPDATE alunos SET id= '1700041133' WHERE id='12700041133'
+UPDATE alunos SET id= '2000041125' WHERE id='22200041125'
+UPDATE alunos SET id= '2100041137' WHERE id='255100041137'
+
+SELECT * FROM Alunos
+
+
+
+
+
