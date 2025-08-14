@@ -14,7 +14,7 @@ CREATE TABLE Alunos (
 
 INSERT INTO alunos (id, nome, data_nascimento, situacao, telefone, endereco) VALUES
 ('100041138', 'Aline Sousa Bezerra', '2007-12-16', 'Matriculado', '(68) 99901-0001', 'Rua das Flores, Centro, Rio Branco - AC'),
-('200041139', 'Amanda VitÛria de Barros', '2003-12-05', 'Matriculado', '(68) 99901-0002', 'Rua das Flores, Centro, Rio Branco - AC'),
+('200041139', 'Amanda Vit√≥ria de Barros', '2003-12-05', 'Matriculado', '(68) 99901-0002', 'Rua das Flores, Centro, Rio Branco - AC'),
 ('300041117', 'Ana Sara Santos do Nascimento', '2009-11-27', 'Matriculado', '(68) 99901-0003', 'Rua das Flores, Centro, Rio Branco - AC'),
 ('400041152', 'Brenda Camily Lima da Silva', '2007-12-02', 'Matriculado', '(68) 99901-0004', 'Rua das Flores, Centro, Rio Branco - AC'),
 ('500041149', 'Calebe Barbosa de Andrade Correia', '2010-05-09', 'Matriculado', '(68) 99901-0005', 'Rua das Flores, Centro, Rio Branco - AC'),
@@ -32,10 +32,10 @@ INSERT INTO alunos (id, nome, data_nascimento, situacao, telefone, endereco) VAL
 ('1900041134', 'Maria Isabel Nascimento Ferreira', '2002-05-26', 'Matriculado', '(68) 99901-0017', 'Rua das Flores, Centro, Rio Branco - AC'),
 ('2000041125', 'Pyetra Menezes', '2009-08-17', 'Matriculado', '(68) 99901-0018', 'Rua das Flores, Centro, Rio Branco - AC'),
 ('2100041137', 'Ronisson Silva do Couto', '2008-10-04', 'Matriculado', '(68) 99901-0019', 'Rua das Flores, Centro, Rio Branco - AC'),
-('2200041148', 'Thallyson Daniel de Souza Pinheiro', '2007-03-19', 'Desmatriculado', '(68) 99901-0020', 'Rua das Flores, Centro, Rio Branco - IC'),
-('22656467', 'Kau„ Silva', '2006-04-27', 'Matriculado', '(68) 99901-0021', 'Rua das Flores, Centro, Rio Branco - AC'),
-('345689', 'Luany Lima', '2006-08-09', 'Desmatriculado', '(68) 99901-0022', 'Rua das Flores, Centro, Rio Branco - AC'),
-('2300041150', 'Vitoria Akylla CarlÈ0 Soares Lima', '2006-02-25', 'Matriculad0', '(68) 99901-0023', 'Rua das Flores, Centro, Rio Branco - PA');
+('2200041148', 'Thallyson Daniel de Souza Pinheiro', '2007-03-19', 'matriculado', '(68) 99901-0020', 'Rua das Flores, Centro, Rio Branco - IC'),
+('22656467', 'Kau√£ Silva', '2006-04-27', 'Matriculado', '(68) 99901-0021', 'Rua das Flores, Centro, Rio Branco - AC'),
+('345689', 'Luany Lima', '2006-08-09', 'matriculado', '(68) 99901-0022', 'Rua das Flores, Centro, Rio Branco - AC'),
+('2300041150', 'Vitoria Akylla Carl√©0 Soares Lima', '2006-02-25', 'Matriculad0', '(68) 99901-0023', 'Rua das Flores, Centro, Rio Branco - PA');
 
 
 
